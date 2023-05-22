@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'panton';
+    src: url('fonts/panton/Panton-Trial-Bold.woff') format('woff'),
+    	 url('fonts/panton/Panton-Trial-Bold.woff2') format('woff2'),
+         url('fonts/panton/Panton-Trial-Light.woff') format('woff'),
+         url('fonts/panton/Panton-Trial-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'louisgeorgecafe';
+    src: url('fonts/louisgeorgecafe/louisgeorgecafe.ttf') format('truetype'),
+    	   url('fonts/louisgeorgecafe/louisgeorgecafe-bold.ttf') format('truetype');
+}
+
+.contenu {
+  font-family:"louisgeorgecafe";
+}
+
+.contenu a {
+    text-decoration: none;
+}
+.contenu a:hover{
+color:white;
+}
+
+.titresite {
+font-size:1.7em ;
+color: #9c0000;
+padding-right:40px;
+}
+
+.menu {
+  margin-top:50px;
+  text-align: center;
+  margin-bottom: 200px;
+ font-weight:700;
+}
+
+.entreemenu {
+  color:#AAA8A8;
+  font-size:1.2em;
+  padding-left:20px;
+}
+
+
+.pagetexte{
+  width: 800px;
+text-align: center;
+font-size: 1.1em;
+color:#AAA8A8;
+margin-left:auto;
+margin-right: auto;
+}
+
+.films{
+  column-width: 35em;
+  text-align: center;
+  color:#AAA8A8;
+}
